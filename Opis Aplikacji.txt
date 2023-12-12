@@ -1,0 +1,1 @@
+Aplikacja pozwala na wybranie jednego z trzech obrazków. Kliknij jeden z nich by go wybrać, kliknij zatwierdź pod obrazkami by zatwierdzić swój wybór. Po zatwierdzeniu wyboru aplikacja powie ci: "wybrałeś obraz nr (numer obrazu od lewej))
