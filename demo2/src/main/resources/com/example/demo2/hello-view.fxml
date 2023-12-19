@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #636363;">
+         <children>
+            <ImageView fitHeight="204.0" fitWidth="225.0" layoutX="59.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/1.png" />
+               </image></ImageView>
+            <ImageView fitHeight="225.0" fitWidth="271.5" layoutX="356.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/2.png" />
+               </image></ImageView>
+            <ImageView fitHeight="204.0" fitWidth="204.0" layoutX="636.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/3.png" />
+               </image></ImageView>
+            <RadioButton layoutX="73.0" layoutY="401.0" mnemonicParsing="false" text="1" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Black" size="22.0" />
+               </font></RadioButton>
+            <RadioButton layoutX="135.0" layoutY="401.0" mnemonicParsing="false" text="2" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Black" size="22.0" />
+               </font></RadioButton>
+            <RadioButton layoutX="197.0" layoutY="401.0" mnemonicParsing="false" text="3" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Black" size="22.0" />
+               </font></RadioButton>
+            <RadioButton layoutX="73.0" layoutY="441.0" mnemonicParsing="false" text="4" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Black" size="22.0" />
+               </font></RadioButton>
+            <RadioButton layoutX="135.0" layoutY="441.0" mnemonicParsing="false" text="5" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Black" size="22.0" />
+               </font></RadioButton>
+            <RadioButton layoutX="197.0" layoutY="441.0" mnemonicParsing="false" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Black" size="22.0" />
+               </font></RadioButton>
+            <RadioButton layoutX="73.0" layoutY="483.0" mnemonicParsing="false" text="7" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Black" size="22.0" />
+               </font></RadioButton>
+            <RadioButton layoutX="135.0" layoutY="483.0" mnemonicParsing="false" text="8" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Black" size="22.0" />
+               </font></RadioButton>
+            <RadioButton layoutX="197.0" layoutY="483.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="28.0" text="9" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Black" size="22.0" />
+               </font></RadioButton>
+            <Button layoutX="331.0" layoutY="423.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="239.0" style="-fx-background-color: #444;" text="Wybierz" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="28.0" />
+               </font></Button>
+            <ImageView fitHeight="148.0" fitWidth="137.0" layoutX="703.0" layoutY="389.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/Logo.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="19.0" layoutY="20.0" prefHeight="99.0" prefWidth="861.0" style="-fx-background-color: #444;">
+               <children>
+                  <Text fill="WHITE" layoutX="123.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wybierz Swego Pokémona" textAlignment="CENTER">
+                     <font>
+                        <Font name="Segoe UI Black" size="47.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="543.0" prefHeight="57.0" prefWidth="906.0" style="-fx-background-color: #444;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© Adam Jankowski">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children></AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
